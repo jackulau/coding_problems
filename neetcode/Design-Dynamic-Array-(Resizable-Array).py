@@ -2,7 +2,7 @@
 # Platform: neetcode
 # Difficulty: Easy
 # Language: python
-# Synced: 2026-05-12T03:21:49.606Z
+# Synced: 2026-05-12T03:24:52.143Z
 class DynamicArray:
     
     def __init__(self, capacity: int):
