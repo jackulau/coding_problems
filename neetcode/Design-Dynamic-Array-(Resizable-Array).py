@@ -2,7 +2,7 @@
 # Platform: neetcode
 # Difficulty: Easy
 # Language: python
-# Synced: 2026-05-12T02:49:25.287Z
+# Synced: 2026-05-12T03:09:04.684Z
 class DynamicArray:
     
     def __init__(self, capacity: int):
@@ -17,3 +17,4 @@ class DynamicArray:
         self.arr[i] = n
 
     def pushback(self, n: int) -> None:
+        if self.size == self.capacity:
